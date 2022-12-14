@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  min-height: 100vh;
+  /* background-image: url('bg2.jpg'); */
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  font-family: Poppins !important;
+  color: rgb(80, 80, 2) !important;
+
+}
+
+.underline {
+  border: 2px solid blue;
+  width: 90px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+/* /* .review{
+  max-width: 600px;
+}
+img{
+  border-radius: 50%;
+  margin-bottom: .8rem;
+  background-color: rgb(211, 221, 230) !important;
+}
+#job{
+  color: rgb(25, 37, 204);
+}
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px !important;
+}
+#info{
+  color: rgb(0, 0, 0);
+  font-size: clamp(.5rem .8rem 1rem);
+} */
+
+/*==============================
+Nav start
+===============================
+
+ Hide button */
+
+.links {
+  display: grid;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.links li {
+  list-style-type: none !important;
+  margin: 0 5px;
+}
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#show-hide {
+  display: none;
+}
+
+/*
+  .nav-menu{
+    margin-bottom: 15px;
+  }
+
+@media screen and (min-width:630px) {
+  .nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width:630px) {
+  .nav-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+    
+  }
+
+  .links {
+    height: 0;
+    overflow: hidden;
+  }
+
+  .show-link {
+    margin-top: 20px;
+    height: auto;
+    display: grid;
+  }
+
+  .icon-t {
+    height: auto;
+  }
+
+  #show-hide {
+    display: inline;
+  }
+} */
+
+
+/*==============================
+Nav End
+===============================*/
+
+
+/*==============================
+Sidebar menu
+===============================*/
+
+
+img{
+  display: flex;
+  margin: 0 auto;
+  min-width: 100%;
+  max-height: 100px;
+}
+.button {
+  float: right;
+  padding: 5px;
+  display: none;
+}
+
+.main {
+  padding: 5px;
+  text-align: justify;
+}
+.close{
+  float: right;
+}
+
+@media screen and (min-width:800px) {
+
+  .parent-main {
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+    gap: 10px;
+    min-height: 100vh;
+  }
+  
+}
+
+@media screen and (max-width:800px) {
+
+  .parent-main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    min-height: 100vh;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .show-menu {
+    display: block;
+    min-width: 100%;
+  }
+
+  .button {
+    float: right;
+    padding: 5px;
+    display: block;
+  }
+}
+
+/*==============================
+Sidebar Menu End
+===============================*/
